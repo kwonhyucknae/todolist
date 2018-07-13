@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+html, body {
+	background-color: gray;
+}
+
+header {
+	height: 150px;
+	width: 65%;
+	background-color: white;
+	position: relative;
+	left: 15%; 
+}
+
+section {
+	display : inline-block;
+	width: 65%;
+	background-color: white; 
+	position: relative;
+	left: 15%;
+	padding-bottom:40px;
+}
+
+.decline {
+	float: left;
+	font-size: 40px;
+	color: #0c6a8e;
+	font-weight: bold;
+	transform: rotate(330deg);
+	position: relative;
+	top: 45px;
+	z-index:1;
+}
+
+.todo_btn {
+	background-color: #6eabf1;
+	color: white;
+	font-weight: bold;
+	width: 250px;
+	height: 60px;
+	float: right;
+	margin: 30px;
+	margin-top: 50px;
+	cursor:pointer;
+}
+
+.box {
+	float: left;
+}
+
+.elements{
+	position:relative;
+	left:110px;
+}
+
+.element_top{
+	background-color:#1e5877;
+	width:350px;
+	height:100px;
+	margin:10px;
+}
+
+.element_top p{
+	font-weight:bold;
+	font-size:25px;
+	color:white;
+	padding : 30px;
+
+}
+
+
+.element {
+	background-color:#93cede;
+	width:350px;
+	height:100px;
+	margin:10px;
+}
+
+.element h1{
+	padding:15px 0 0 15px;
+}
+
+.element p{
+	position:relative;
+	bottom:10px;
+	padding-left:15px;
+	font-size:14px;
+}
+
+.element_btn{
+	position:relative;
+	bottom:45px;
+	left:310px;
+	cursor:pointer;
+}
